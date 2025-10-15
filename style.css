@@ -1,0 +1,52 @@
+body{
+    font-family: "Kanit", sans-serif;
+    background-color:#f7e3b8;
+    color: #2e1f13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px gray;
+    width: 400px;
+}
+.member-img {
+    width: 400px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: #2e1f13;
+}
+p{
+    text-align: left;
+}
+label{
+    margin-top: 10px;
+    font-weight: 100;
+}
+input[type="text"], 
+input[type="password"], 
+input[type="email"], 
+input[type="tel"], 
+input[type="date"], 
+input[type="number"],
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #2e1f13;
+    border-radius: 8px;
+    box-sizing: border-box;
+    resize: none;
+}
+input[type="color"]{
+    border: 1px solid #2e1f13;
+}
+input[type="submit"],
+input[type="reset"]{
+  padding: 8px;
+}
